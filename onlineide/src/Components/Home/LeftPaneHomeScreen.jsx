@@ -1,5 +1,7 @@
 import React from 'react'
 
+//1h7m
+
 function LeftPaneHomeScreen() {
   return (
     <div className="border-2 border-black h-screen bg-black flex justify-end">
