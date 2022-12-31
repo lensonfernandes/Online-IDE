@@ -9,7 +9,7 @@ function NewPlayGroundAndFolder() {
   const [playgroundTitle, setPlaygroundTitle] = React.useState("");
 
   return (
-    <div>
+    <div className="px-6 py-4  mb-8 flex flex-col items-center justify-center gap-6">
       <h2>Enter New Folder and Playground Name</h2>
       <label>Enter Folder Name</label>
       <input

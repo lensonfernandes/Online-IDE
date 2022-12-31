@@ -78,8 +78,8 @@ function RightPaneHomeScreen() {
               </h5>
             </div>
           </div>
-          <hr class="mb-4 mt-4 bg-black" />
-          <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
+          <hr className="mb-4 mt-4 bg-black m-4" />
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
             {folder["playgrounds"] &&
               Object.entries(folder["playgrounds"])?.map(
                 ([playgroundId, playground]) => (
@@ -132,7 +132,7 @@ function RightPaneHomeScreen() {
         </div>
       ))}
 
-      <div className="flex justify-between m-6">
+      {/* <div className="flex justify-between m-6">
         <div className="left flex gap-3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -185,7 +185,7 @@ function RightPaneHomeScreen() {
 
           <h5 className="font-mono">+ New Playground</h5>
         </div>
-      </div>
+      </div> */}
       <hr className="m-4" />
 
       <div className="container-cards flex flex-wrap gap-4 m-4">
