@@ -2,7 +2,9 @@ import React from 'react'
 
 function CodeEditor() {
   return (
-    <div>CodeEditor</div>
+    <div>
+      <div style={{background:'grey'}}>Hello World</div>
+    </div>
   )
 }
 

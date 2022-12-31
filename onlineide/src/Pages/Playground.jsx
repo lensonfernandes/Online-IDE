@@ -9,10 +9,11 @@ import axios, { Axios } from "axios";
 import InputConsole from "../Components/Playground/InputConsole";
 import OutputConsole from "../Components/Playground/OutputConsole";
 import { ModalContext } from "../Context/ModalContext";
+import CodeEditor from "../Components/Playground/CodeEditor";
 
 function Playground() {
   const { folderId, playgroundId } = useParams();
-  const { folders, savePlayground } = useContext(PlaygroundContext);
+  const { folders,  savePlayground } = useContext(PlaygroundContext);
   const { isOpenModal, openModal, closeModal } = useContext(ModalContext);
   const { title, language, code } = folders[folderId].playgrounds[playgroundId];
 
@@ -135,7 +136,10 @@ function Playground() {
     })
   }
 
-  return <div>Playground</div>;
+  return (<div>
+    <p>Hello 1 2 3</p>
+    {/* <CodeEditor /> */}
+  </div>);
 }
 
 export default Playground;

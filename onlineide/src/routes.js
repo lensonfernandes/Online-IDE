@@ -11,7 +11,7 @@ const routes = [
         component: <Home/>,
     },
     {
-        path: '/code/:folderID/:playgroundID',
+        path: '/code/:folderId/:playgroundId',
         component: <Playground/>,
     },
     {
