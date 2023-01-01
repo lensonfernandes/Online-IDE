@@ -2,7 +2,7 @@ import React from 'react'
 
 function NavBar() {
   return (
-    <div>NavBar</div>
+    <div style={{padding:"2vh", background:'black'}}><h1 style={{textAlign:'center', color:'white'}}>Online IDE</h1></div>
   )
 }
 

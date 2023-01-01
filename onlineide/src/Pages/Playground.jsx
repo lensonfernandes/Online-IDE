@@ -137,8 +137,12 @@ function Playground() {
   }
 
   return (<div>
-    <p>Hello 1 2 3</p>
-    {/* <CodeEditor /> */}
+    {/* <p>Hello 1 2 3</p> */}
+    <NavBar />
+    <EditorContainer>
+      
+    </EditorContainer>
+    
   </div>);
 }
 
